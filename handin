@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+$msg=shift;
+$msg="by satanson" unless $msg;
+print qq(git add .),"\n";
+qx(git add .);
+print qq(git commit -m "$msg"),"\n";
+qx(git commit -m "$msg");
+print qq(git push origin master),"\n";
+qx(git push origin master);
