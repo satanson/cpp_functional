@@ -1,0 +1,9 @@
+*~
+.*.swp
+.*~
+*.bak
+.*.bak
+!Makefile
+!c
+!*.cpp
+!*.hpp
